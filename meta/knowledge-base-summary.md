@@ -2,7 +2,7 @@
 id: ci:meta.knowledge-base-summary
 author: "Rashid Azarang"
 status: canonical
-version: 1.3
+version: 1.9
 summary: Comprehensive overview of the Cognitive Infrastructure knowledge base structure, content, and evolution
 ---
 
@@ -26,6 +26,14 @@ The repository creates a common language and framework for identifying, discussi
 
 ## 3. How It's Structured
 
+The Cognitive Infrastructure project is now organized into three main repositories:
+
+1. **knowledge-base**: Core concepts, patterns, anti-patterns, diagnostics, and documentation
+2. **meta-stack**: Infrastructure logic, tools, schemas, and scripts for managing the knowledge base
+3. **agentic-systems**: Implementation blueprints for AI-assisted systems based on CI principles
+
+Within the knowledge-base repository:
+
 - The `core-concepts/` folder contains the foundational ideas upon which Cognitive Infrastructure is built, each following a consistent format with canonical definitions, explanations of importance, and key principles. These files represent the "source-of-truth" for these concepts.
 
 - The `patterns-and-anti-patterns/` directory houses implementation patterns that preserve clarity (e.g., "Semantic Foundation") and anti-patterns that erode it (e.g., "Dashboard Theater"). Each follows a consistent structure that includes symptoms, causes, and remedies.
@@ -36,9 +44,16 @@ The repository creates a common language and framework for identifying, discussi
 
 - The `json/` directory mirrors the Markdown structure with machine-readable representations of all concepts, patterns, and documents, enabling validation, indexing, and programmatic access to the knowledge base.
 
-- The `scripts/` and `tools/` directories contain utilities for maintaining consistency, validating content, and automatically generating documentation based on source materials, supporting the recursive publishing workflow.
+- The `excerpts/` directory contains structured excerpts from source documents with proper citations and metadata.
 
-- The `sources/` directory holds raw manuscripts, excerpts, and citation protocols, providing the foundation from which structured documentation is generated and maintaining traceability back to original thinking.
+- The `sources/` directory holds raw manuscripts and citation protocols, providing the foundation from which structured documentation is generated and maintaining traceability back to original thinking.
+
+The meta-stack repository contains:
+
+- The `tools/` directory with utilities like ci-writer.js and ci-coder.js for maintaining consistency, validating content, and automatically generating documentation
+- The `scripts/` directory with helper utilities such as add_author.py and insert-citation.js
+- The `schemas/` directory with JSON schemas for validating knowledge base documents
+- The `json/` directory with JSON twins of canonical markdown documents 
 
 ### 3.1 Core Concepts (`/core-concepts/`)
 
@@ -247,15 +262,17 @@ For example, the anti-pattern of "Semantic Drift" directly relates to the "Seman
 
 ## 6. How to Use This Repo (for LLMs or humans)
 
-The CI publishing workflow follows a recursive process that ensures content is structured, verified, and interconnected:
+The CI publishing workflow follows a recursive process that ensures content is structured, verified, and interconnected across the three main repositories:
 
-1. **Add Source Material**: Place manuscripts in `/sources/manuscripts/` and create structured excerpts in `/sources/excerpts/` with appropriate metadata.
+1. **Add Source Material**: 
+   - Place manuscripts in `knowledge-base/sources/manuscripts/`
+   - Create structured excerpts in `knowledge-base/excerpts/` with appropriate metadata and citations
 
-2. **Add Draft Documents**: Place draft `.md` files in `/docs/pending/` for automatic classification, structuring, and publishing via the Pending Ingestion Protocol.
+2. **Add Draft Documents**: Place draft `.md` files in `knowledge-base/docs/pending/` for automatic classification, structuring, and publishing via the Pending Ingestion Protocol.
 
-3. **Generate Structured Documentation**: Run CI-Writer to scan for TODOs in Markdown files and automatically fill them with content extracted from source materials, maintaining consistent formatting and structure.
+3. **Generate Structured Documentation**: Run CI-Writer from the meta-stack repository to scan for TODOs in Markdown files and automatically fill them with content extracted from source materials, maintaining consistent formatting and structure.
 
-4. **Validate and Interconnect**: Use CI-Coder and validation scripts to ensure JSON files conform to schemas, update cross-references between related concepts, and maintain consistency throughout the repository.
+4. **Validate and Interconnect**: Use CI-Coder and validation scripts from the meta-stack repository to ensure JSON files conform to schemas, update cross-references between related concepts, and maintain consistency throughout the repository.
 
 5. **Process Pending Documents**: Run the `process-pending` command to transform draft documents into canonical formats and route them to appropriate locations.
 
@@ -265,12 +282,22 @@ This workflow creates a self-reinforcing system where knowledge becomes more str
 
 ## 7. Filemap Snapshot
 
+### Multi-Repository Structure
+
 ```
-.
+cognitive-infrastructure/
+├── knowledge-base/          # Core concepts, patterns, anti-patterns, and documentation
+├── meta-stack/              # Infrastructure logic, tools, schemas, and scripts
+└── agentic-systems/         # Implementation blueprints for AI-assisted systems
+```
+
+### knowledge-base Repository
+
+```
+knowledge-base/
 ├── README.md                           # Main repository introduction
 ├── SUMMARY.md                          # Navigation structure for documentation
 ├── canonical-index.md                  # Index of all canonical documents
-├── execute-pending-updates.md          # Instructions for the pending ingestion protocol
 ├── core-concepts/                      # Foundational ideas of Cognitive Infrastructure
 │   ├── README.md                       # Overview of core concepts
 │   ├── clarity-laws.md                 # Rules on how structure constrains capability
@@ -288,11 +315,19 @@ This workflow creates a self-reinforcing system where knowledge becomes more str
 │   ├── structural-receptivity.md       # Capacity to incorporate new knowledge
 │   ├── structure-memory-interaction.md # Foundation of usable intelligence
 │   └── universal-evolutionary-stages.md # Maturity progression of systems
+├── diagnostics/                        # Methodologies for system assessment
+│   ├── collaborative-system-integrity-diagnosis.md  # Cross-entity intelligence analysis
+│   ├── cross-boundary-triangulation.md # Multi-perspective understanding
+│   ├── intelligence-circulation.md     # Knowledge flow assessment
+│   ├── layer-maturity-grid.md          # Modal Layer maturity evaluation
+│   └── system-autopsy.md               # Post-incident analysis
 ├── docs/
 │   ├── canonical-source-documents/     # Authoritative, comprehensive concept treatments
 │   │   ├── ballup-canonical-source.md  # Deep dive on recurring friction points
+│   │   ├── cir-canonical-source.md     # Cognitive Infrastructure Retrieval
 │   │   ├── cognitive-amnesia-canonical-source.md # Problem-solving memory loss
 │   │   ├── coherence-debt-canonical-source.md # Deficit in shared meaning
+│   │   ├── epistemic-circulation.md    # Knowledge flow principles
 │   │   ├── epistemic-substrate-theory-canonical-source.md # Knowledge foundation theory
 │   │   ├── epistemophany-canonical-source.md # Architecture awareness moments
 │   │   ├── hero-structure-inverse-correlation-law-canonical-source.md # Balance law
@@ -306,57 +341,104 @@ This workflow creates a self-reinforcing system where knowledge becomes more str
 │   │   ├── trigger-chaos-canonical-source.md # Unpredictable automation
 │   │   └── universal-evolutionary-stages-canonical-source.md # Maturity progression
 │   ├── pending/                        # Staging area for draft documents
-│   │   ├── README.md                   # Instructions for pending ingestion
-│   │   └── example-pattern.md          # Example draft document
+│   │   └── README.md                   # Instructions for pending ingestion
 │   └── source-documents/               # Epistemological and research foundations
+│       ├── CIR_Cognitive_Infrastructure_Retrieval.pdf # Source PDF for CIR
 │       └── toolification-epistemological-source.md # Research on tool acquisition behavior
+├── excerpts/                           # Structured excerpts from source documents
+│   └── systems-thinking-intro.md       # Example excerpt with proper citations
 ├── json/                               # Machine-readable representation of all concepts
-│   ├── README.md                       # Overview of JSON structure
 │   ├── anti-patterns/                  # JSON versions of anti-patterns
 │   ├── core-concepts/                  # JSON versions of core concepts
+│   ├── diagnostics/                    # JSON versions of diagnostics
 │   ├── docs/                           # JSON versions of documentation
-│   ├── meta/                           # JSON versions of meta documents
-│   │   ├── ci-document-schema.json     # Schema for document validation
-│   │   ├── ci-schema.json              # Schema for concept validation
-│   │   ├── knowledge-base-summary.json # Machine-readable summary of repository
-│   │   └── pending-ingestion-instruction.json # Protocol in JSON form
-│   └── patterns/                       # JSON versions of implementation patterns
+│   └── meta/                           # JSON versions of meta documents
 ├── meta/                               # Self-documenting meta architecture
-│   ├── knowledge-base-summary.md       # Overview of repository structure
-│   └── recursive-publishing-engine.md  # Documentation of publishing system
-├── ontology.json                       # Semantic relationships between concepts
-├── package.json                        # Node.js dependencies and scripts
+│   ├── knowledge-base-summary.md       # Overview of repository structure (this file)
+│   ├── operators-oath.md               # Principles for CI practitioners
+│   └── summaries/                      # Document summaries
 ├── patterns-and-anti-patterns/         # Solutions and pitfalls
 │   ├── README.md                       # Overview of patterns and anti-patterns
 │   ├── anti-patterns/                  # Structures that erode clarity
 │   │   ├── ballup.md                   # Recurring friction despite fixes
+│   │   ├── clarity-culture.md          # Failed clarity maintenance
+│   │   ├── clarity-laws.md             # Violated structural principles
+│   │   ├── cultural-resistance-as-ballup.md # Cultural resistance to change
 │   │   ├── dashboard-theater.md        # Visuals without decisions
+│   │   ├── friction-ontology.md        # Misidentified friction sources
 │   │   ├── hero-syndrome.md            # Dependency on irreplaceable individuals
+│   │   ├── layer-maturity-grid.md      # Imbalanced layer development
 │   │   ├── metastable-intelligence.md  # Systems vulnerable under stress
+│   │   ├── modal-layer-architecture1.md # Misaligned separation
+│   │   ├── return-as-intelligence.md   # Lost revisitation value
 │   │   ├── semantic-drift.md           # Meaning variation across teams
+│   │   ├── structural-debt.md          # Accumulated misalignment cost
 │   │   └── toolification.md            # Tool adoption as distraction
 │   └── patterns/                       # Structures that preserve clarity
 │       ├── canonical-ids.md            # Stable, globally unique identifiers
+│       ├── clarity-culture.md          # Practices for maintaining clarity
+│       ├── clarity-mapping-worksheet.md # Tool for mapping clarity domains
 │       ├── closed-loop-feedback.md     # Measurement informing adjustment
+│       ├── continuity-disruption-balance.md # Evolution without trust breaking
+│       ├── example-pattern.md          # Pattern template
 │       ├── hero-structure-inverse-correlation-law.md # Balance principle
 │       ├── layered-modularity.md       # Modal Layer alignment
+│       ├── maturity-vs-balance-2x2.md  # Assessment framework
+│       ├── multi-axis-integration-framework.md # Cross-organizational coherence
 │       ├── progressive-typing.md       # Evolving data structures
+│       ├── recursive-ingestion-pattern.md # Self-improving documentation
 │       ├── return-path-engineering.md  # Routes to previous knowledge
 │       ├── semantic-foundation.md      # Unified definitions
-│       └── single-source-of-truth.md   # Authoritative records
-├── scripts/                            # Utilities for maintaining repository
-│   ├── ensure-json-files.js            # Generate JSON from Markdown
-│   ├── update-related-sections.js      # Maintain cross-references
-│   └── validate-all.js                 # Validate against schemas
-├── sources/                            # Raw materials for generation
-│   ├── README.md                       # Overview of source materials
-│   ├── excerpts/                       # Structured excerpts from manuscripts
-│   └── manuscripts/                    # Original unstructured text
+│       ├── single-source-of-truth.md   # Authoritative records
+│       ├── structure-memory-interaction-triad.md # Core intelligence model
+│       └── universal-patterns-of-intelligence-evolution.md # Maturity stages
+└── sources/                            # Raw materials for generation
+    ├── archived/                       # Previous versions of documents
+    └── manuscripts/                    # Original unstructured source documents
+```
+
+### meta-stack Repository
+
+```
+meta-stack/
+├── README.md                           # Repository introduction
+├── SUMMARY.md                          # Navigation structure
+├── ontology.json                       # Semantic relationships between concepts
+├── docs/                               # Documentation for tools and processes
+│   └── prompts/                        # Prompt templates for AI-assisted workflows
+│       └── manual-document-entries/    # Prompts for document generation
+├── json/                               # JSON twins of canonical markdown documents
+│   ├── anti-patterns/                  # JSON versions of anti-patterns
+│   ├── core-concepts/                  # JSON versions of core concepts
+│   ├── diagnostics/                    # JSON versions of diagnostics
+│   ├── docs/                           # JSON versions of documentation
+│   ├── meta/                           # JSON versions of meta documents
+│   │   └── prompt/                     # Prompts in JSON format
+│   └── patterns/                       # JSON versions of implementation patterns
+├── lib/                                # Shared code libraries
+├── meta/                               # Meta-information about the infrastructure
+│   ├── README.md                       # Overview of meta documentation
+│   └── cognitive-infrastructure-knowledge-base.md # Knowledge base architecture
+├── schemas/                            # JSON schemas for validation
+│   ├── ci-document-schema.json         # Schema for document validation
+│   └── ci-schema.json                  # Schema for concept validation
+├── scripts/                            # Utility scripts
+│   ├── README.md                       # Overview of scripts
+│   ├── add_author.py                   # Script to add author field to documents
+│   ├── clean-pending.js                # Clean up pending documents
+│   ├── insert-citation.js              # Helper for inserting citations
+│   └── validate-migration.js           # Validation for migrations
 └── tools/                              # Command-line utilities
-    ├── add-source.js                   # Tool for adding new source material
     ├── ci-coder.js                     # Validation and synchronization tool
-    ├── ci-writer.js                    # Content generation tool
-    └── ingest-pending.js               # Future: Automate draft processing
+    └── ci-writer.js                    # Content generation tool
+```
+
+### agentic-systems Repository
+
+```
+agentic-systems/
+├── README.md                           # Repository introduction
+└── SUMMARY.md                          # Navigation structure
 ```
 
 ## 🔁 How It Evolves Over Time
@@ -377,4 +459,5 @@ This workflow creates a self-reinforcing system where knowledge becomes more str
 - v1.5 (Apr 2025): Added Clarity Culture pattern to the patterns registry
 - v1.6 (Apr 2025): Added Operator's Oath as a meta document
 - v1.7 (Apr 2025): Added Cross-Boundary Triangulation and created Diagnostics section 
-- v1.8 (Apr 2025): Processed pending documents, including new patterns (Clarity Mapping Worksheet, Continuity-Disruption Balance, Maturity vs. Balance 2x2, Multi-Axis Integration Framework, Structure-Memory-Interaction Triad, Universal Patterns of Intelligence Evolution) and anti-patterns (Clarity Laws, Cultural Resistance as Ballup, Friction Ontology, Layer Maturity Grid, Modal Layer Architecture, Return as Intelligence, Structural Debt) 
+- v1.8 (Apr 2025): Processed pending documents, including new patterns (Clarity Mapping Worksheet, Continuity-Disruption Balance, Maturity vs. Balance 2x2, Multi-Axis Integration Framework, Structure-Memory-Interaction Triad, Universal Patterns of Intelligence Evolution) and anti-patterns (Clarity Laws, Cultural Resistance as Ballup, Friction Ontology, Layer Maturity Grid, Modal Layer Architecture, Return as Intelligence, Structural Debt)
+- v1.9 (Apr 2025): Updated repository structure to reflect multi-repo organization with knowledge-base, meta-stack, and agentic-systems; updated file locations and filemaps 
