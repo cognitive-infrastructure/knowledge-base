@@ -1,6 +1,7 @@
 ---
 id: "ci:concept.epistemophany"
 title: "Epistemophany"
+<!-- migrated from knowledge-base repo on 2025-04 -->
 category: "concept"
 author: "Rashid Azarang"
 canonical_date: "2024-04-16"

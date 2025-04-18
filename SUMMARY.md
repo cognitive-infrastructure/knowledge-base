@@ -10,6 +10,7 @@ summary: Complete index of the Cognitive Infrastructure knowledge base content
 ## Introduction
 * [Introduction to Cognitive Infrastructure](README.md)
 * [Knowledge Base Summary](meta/knowledge-base-summary.md)
+* [Canonical Index](canonical-index.md)
 
 ## Core Concepts
 * [Structure-Memory-Interaction Triad](core-concepts/structure-memory-interaction.md)
@@ -65,8 +66,35 @@ summary: Complete index of the Cognitive Infrastructure knowledge base content
 * [Scripts Guide](docs/scripts-guide.md)
 * [JSON Guide](docs/json-guide.md)
 
+## Product Requirements
+* [PRD - CI-Coder](docs/PRD-ci-coder.md)
+* [PRD‑ci‑coder](docs/PRD‑ci‑coder.md)
+
+## Pending Documents
+* [Clarity Culture](docs/pending/clarity-culture.md)
+* [Operators Oath](docs/pending/operators-oath.md)
+* [Cultural Resistance as Ballup](docs/pending/cultural-resistance-as-ballup.md)
+* [Cross-Boundary Triangulation](docs/pending/cross-boundary-triangulation.md)
+* [Collaborative System Integrity Diagnosis](docs/pending/collaborative-system-integrity-diagnosis.md)
+* [Layer Maturity Grid](docs/pending/layer-maturity-grid.md)
+* [Clarity Mapping Worksheet](docs/pending/clarity-mapping-worksheet.md)
+* [System Autopsy](docs/pending/system-autopsy.md)
+* [Structural Debt](docs/pending/structural-debt.md)
+* [Universal Patterns of Intelligence Evolution](docs/pending/universal-patterns-of-intelligence-evolution.md)
+* [Multi-Axis Integration Framework](docs/pending/multi-axis-integration-framework.md)
+* [Friction Ontology](docs/pending/friction-ontology.md)
+* [Return as Intelligence](docs/pending/return-as-intelligence.md)
+* [Dashboard Theater](docs/pending/dashboard-theater.md)
+* [Continuity Disruption Balance](docs/pending/continuity-disruption-balance.md)
+* [Maturity vs Balance 2x2](docs/pending/maturity-vs-balance-2x2.md)
+* [Clarity Laws](docs/pending/clarity-laws.md)
+* [Modal Layer Architecture](docs/pending/modal-layer-architecture1.md)
+* [Structure-Memory-Interaction Triad](docs/pending/structure-memory-interaction-triad.md.md)
+* [Example Pattern](docs/pending/example-pattern.md)
+
 ## Revision Log
 
+- v1.3 (Apr 2025): Added Product Requirements and Pending Documents sections
 - v1.2 (Apr 2025): Added missing docs/ and sources/ directories from knowledge-base monorepo
 - v1.1 (Apr 2025): Migrated repository structure from monorepo to multi-repo
 - v1.0 (Apr 2025): Canonicalization pass to standardize frontmatter and formatting 

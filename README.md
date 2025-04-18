@@ -16,9 +16,14 @@ This repository contains the core concepts, patterns, anti-patterns, essays, fra
 - `/docs/` - Documentation, canonical sources, and source documents
   - `/docs/canonical-source-documents/` - Structured canonical source documents
   - `/docs/source-documents/` - Original source documents before canonicalization
+  - `/docs/pending/` - Draft documents awaiting processing and integration
+  - `/docs/scripts-guide.md` - Guide to using scripts and tools
+  - `/docs/json-guide.md` - Guide to JSON file usage
+  - `/docs/PRD-ci-coder.md` - Product Requirements Document for CI-Coder
 - `/sources/` - Original source materials and contribution guidelines
   - `/sources/excerpts/` - Excerpts from source materials
   - `/sources/manuscripts/` - Original manuscripts
+- `canonical-index.md` - Index of all canonical documents
 
 ## Related Repositories
 

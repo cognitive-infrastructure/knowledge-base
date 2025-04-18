@@ -1,22 +1,8 @@
 ---
-id: "ci:antipattern.ballup"
-title: "Ballup"
-category: "antipattern"
-author: "Rashid Azarang"
-canonical_date: "2024-04-16"
-tags:
-  - "recurring-failure"
-  - "structural-inadequacy"
-  - "architectural-mismatch"
-  - "symptom-treatment"
-  - "cyclical-crisis"
-related_documents:
-  - "ci:antipattern.hero-syndrome"
-  - "ci:antipattern.cognitive-amnesia"
-  - "ci:concept.structure-debt"
-  - "ci:concept.epistemic-substrate-theory"
-  - "ci:antipattern.trigger-chaos"
-pdf_version: true
+id: ci:antipattern.ballup
+status: canonical
+version: 1.0
+summary: "The phenomenon of recurring friction points despite attempted fixes"
 ---
 
 # Ballup: A Canonical Source Document for Cognitive Infrastructure

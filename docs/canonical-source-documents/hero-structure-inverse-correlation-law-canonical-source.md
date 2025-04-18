@@ -1,6 +1,7 @@
 ---
 id: "ci:pattern.hero-structure-inverse-correlation-law"
 title: "Hero-Structure Inverse Correlation Law"
+<!-- migrated from knowledge-base repo on 2025-04 -->
 category: "pattern"
 author: "Rashid Azarang"
 canonical_date: "2024-04-16"
