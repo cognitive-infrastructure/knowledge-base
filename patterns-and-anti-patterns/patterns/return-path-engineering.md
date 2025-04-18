@@ -4,7 +4,10 @@ category: pattern
 version: 1.0
 author: Rashid Azarang
 canonicalDate: 2024-04-16
+relatedConcepts: ["Cognitive Amnesia", "Recursive Ingestion Pattern", "Return-as-Intelligence"]
 ---
+
+<!-- Migration Status: Complete -->
 
 # Return Path Engineering
 

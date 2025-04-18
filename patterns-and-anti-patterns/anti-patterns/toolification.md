@@ -1,3 +1,13 @@
+---
+title: "Toolification"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+relatedConcepts: ["Clarity Culture", "Operator's Oath"]
+---
+
+<!-- Migration Status: Complete -->
+
 # Toolification
 
 ---

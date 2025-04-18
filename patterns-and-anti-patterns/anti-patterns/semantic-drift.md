@@ -4,7 +4,10 @@ category: antipattern
 version: 1.0
 author: Rashid Azarang
 canonicalDate: 2024-04-16
+relatedConcepts: ["Canonical IDs", "Clarity Culture", "Clarity Laws", "Cognitive Amnesia", "Cross-Boundary Triangulation", "Semantic Foundation", "Single Source of Truth", "Structure–Memory–Interaction (SMI) Triad", "The Friction Ontology"]
 ---
+
+<!-- Migration Status: Complete -->
 
 # Semantic Drift
 

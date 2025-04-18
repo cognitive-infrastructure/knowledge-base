@@ -1,9 +1,12 @@
 ---
 source: FIELD_GUIDE_2024
 title: "Introduction to Cognitive Infrastructure"
+author: "Rashid Azarang"
 pages: "1-4"
 context: "Defines the field and its core principles"
 ---
+
+<!-- Migration Status: Complete -->
 
 # Introduction to Cognitive Infrastructure
 

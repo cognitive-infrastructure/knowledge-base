@@ -1,3 +1,13 @@
+---
+title: "Multi-Axis Integration"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+relatedConcepts: ["Cross-Boundary Triangulation", "Modal Layer Architecture", "Multi-Axis Integration Framework", "Role-Structure Coherence"]
+---
+
+<!-- Migration Status: Complete -->
+
 # Multi-Axis Integration
 
 ---

@@ -5,6 +5,8 @@ author: Rashid Azarang
 canonicalDate: 2024-04-16
 ---
 
+<!-- Migration Status: Complete -->
+
 # Hero-Structure Inverse Correlation Law
 
 START_DEFINITION  

@@ -1,9 +1,12 @@
 ---
 id: ci:antipattern.ballup
+author: "Rashid Azarang"
 status: canonical
 version: 1.0
 summary: "The phenomenon of recurring friction points despite attempted fixes"
 ---
+
+<!-- Migration Status: Complete -->
 
 # Ballup: A Canonical Source Document for Cognitive Infrastructure
 

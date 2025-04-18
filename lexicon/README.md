@@ -1,9 +1,18 @@
 ---
+title: "Lexicon"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
+---
 id: ci:meta.library-lexicon
 status: canonical
 version: 1.0
 summary: Structured glossary of terms, concepts, and definitions that form the vocabulary foundation of cognitive infrastructure
----
+---<!-- migrated from knowledge-base repo on 2025-04 -->
+
+
 
 # Lexicon
 

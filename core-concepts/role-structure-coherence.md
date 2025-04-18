@@ -1,3 +1,13 @@
+---
+title: "Role-Structure Coherence"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+relatedConcepts: ["Hero Syndrome", "Multi-Axis Integration"]
+---
+
+<!-- Migration Status: Complete -->
+
 # Role-Structure Coherence
 
 ---

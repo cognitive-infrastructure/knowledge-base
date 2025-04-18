@@ -1,3 +1,13 @@
+---
+title: "Metastable Intelligence"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+relatedConcepts: ["Clarity Mapping Worksheet", "Layer-Maturity Grid", "Structural Debt"]
+---
+
+<!-- Migration Status: Complete -->
+
 # Metastable Intelligence
 
 ---

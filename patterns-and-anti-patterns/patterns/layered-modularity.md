@@ -4,7 +4,10 @@ category: pattern
 version: 1.0
 author: Rashid Azarang
 canonicalDate: 2024-04-16
+relatedConcepts: ["Ballup", "Modal Layer Architecture", "Trigger Chaos"]
 ---
+
+<!-- Migration Status: Complete -->
 
 # Layered Modularity
 

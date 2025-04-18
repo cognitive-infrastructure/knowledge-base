@@ -1,3 +1,13 @@
+---
+title: "Structural Receptivity"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+relatedConcepts: ["Recursive Ingestion Pattern", "Return-as-Intelligence"]
+---
+
+<!-- Migration Status: Complete -->
+
 # Structural Receptivity
 
 ---

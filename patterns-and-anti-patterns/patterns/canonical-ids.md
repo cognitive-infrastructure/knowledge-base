@@ -6,7 +6,10 @@ summary: Create stable, globally unique identifiers for entities and concepts th
 category: pattern
 author: Rashid Azarang
 canonicalDate: 2024-04-16
+relatedConcepts: ["Dashboard Theater", "Semantic Drift", "Semantic Foundation", "Semantic Friction", "Single Source of Truth"]
 ---
+
+<!-- Migration Status: Complete -->
 
 # Canonical IDs
 

@@ -4,7 +4,10 @@ category: pattern
 version: 1.0
 author: Rashid Azarang
 canonicalDate: 2024-04-16
+relatedConcepts: ["Canonical IDs", "Cognitive Amnesia", "Semantic Drift", "Semantic Foundation"]
 ---
+
+<!-- Migration Status: Complete -->
 
 # Single Source of Truth
 

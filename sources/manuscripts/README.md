@@ -1,3 +1,10 @@
+---
+title: "Manuscripts"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
 # Manuscripts
 
 <!-- migrated from knowledge-base repo on 2025-04 -->

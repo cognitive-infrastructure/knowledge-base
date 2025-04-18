@@ -1,3 +1,12 @@
+---
+title: "Citation Examples"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
+<!-- Migration Status: Complete -->
+
 # Citation Examples
 
 This document provides examples of how to cite source documents in your Markdown files.

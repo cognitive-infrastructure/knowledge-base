@@ -1,3 +1,12 @@
+---
+title: "**Toolification: An Emerging Epistemological Concept**"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
+<!-- Migration Status: Complete -->
+
 # **Toolification: An Emerging Epistemological Concept**
 
 **Toolification** is a term gaining traction to describe a pattern where people and organizations reflexively apply surface-level **tools** to complex structural problems. In an age of abundant apps, no-code solutions, and AI-driven platforms, *“toolification”* captures the tendency to reach for a quick technological fix instead of addressing underlying systemic issues. This research scan compiles existing usages of the term, related concepts, theoretical precedents, and considerations for framing “toolification” within a broader intellectual framework of cognitive infrastructure and operational intelligence. The goal is to legitimize and contextualize the concept for use in white papers, epistemic field guides, and design discourse.

@@ -1,3 +1,12 @@
+---
+title: "Cognitive Infrastructure Field Guide"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
+<!-- Migration Status: Complete -->
+
 # Cognitive Infrastructure Field Guide
 
 *Author: Rashid Azarang*  

@@ -4,7 +4,10 @@ category: pattern
 version: 1.0
 author: Rashid Azarang
 canonicalDate: 2024-04-16
+relatedConcepts: ["Ballup", "Canonical IDs", "Clarity Laws", "Dashboard Theater", "Recursive Ingestion Pattern", "Semantic Drift", "Semantic Friction", "Single Source of Truth", "Structural Debt", "Universal Patterns of Intelligence Evolution"]
 ---
+
+<!-- Migration Status: Complete -->
 
 # Semantic Foundation
 

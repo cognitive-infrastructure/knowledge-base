@@ -1,0 +1,53 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Get all staged Markdown files
+STAGED_MD_FILES=$(git diff --cached --name-only --diff-filter=ACMR | grep "\.md$" || true)
+
+if [ -n "$STAGED_MD_FILES" ]; then
+  echo "🔍 Validating citations in staged Markdown files..."
+  npm run validate:citations -- $STAGED_MD_FILES
+  
+  if [ $? -ne 0 ]; then
+    echo "❌ Citation validation failed. Please fix the issues and try again."
+    exit 1
+  fi
+fi
+
+# Validate any changes to the index.yaml file
+if git diff --cached --name-only | grep -q "sources/index.yaml"; then
+  echo "🔍 Validating index.yaml format..."
+  node tools/validate-index-yaml.js
+  
+  if [ $? -ne 0 ]; then
+    echo "❌ index.yaml validation failed. Please fix the issues and try again."
+    exit 1
+  fi
+fi
+
+# Ensure PDF files are tracked by Git LFS
+STAGED_PDF_FILES=$(git diff --cached --name-only --diff-filter=ACMR | grep "\.pdf$" || true)
+
+if [ -n "$STAGED_PDF_FILES" ]; then
+  echo "🔍 Checking Git LFS tracking for PDF files..."
+  for file in $STAGED_PDF_FILES; do
+    if ! git check-attr filter "$file" | grep -q "filter: lfs"; then
+      echo "❌ $file is not tracked by Git LFS. Run 'git lfs track \"*.pdf\"' and try again."
+      exit 1
+    fi
+  done
+fi
+
+# Check for modifications to protected files
+PROTECTED_FILES=$(git diff --cached --name-only | grep -E "sources/manuscripts/.*\.md" || true)
+
+for file in $PROTECTED_FILES; do
+  if git ls-files --error-unmatch "$file" > /dev/null 2>&1; then
+    echo "❌ Attempting to modify immutable source document: $file"
+    echo "Source documents should not be modified once committed. Create a new version instead."
+    exit 1
+  fi
+done
+
+# Run lint-staged for other validations
+npx lint-staged 

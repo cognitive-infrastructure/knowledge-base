@@ -4,7 +4,10 @@ title: "Metric Mirage"
 category: "antipattern"
 author: "Rashid Azarang"
 canonicalDate: "2024-04-16"
+relatedConcepts: ["Clarity Laws", "Closed-Loop Feedback", "Dashboard Theater", "Modal Layer Architecture", "The Friction Ontology"]
 ---
+
+<!-- Migration Status: Complete -->
 
 # Metric Mirage
 

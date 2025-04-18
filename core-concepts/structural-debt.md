@@ -1,3 +1,13 @@
+---
+title: "Structural Debt"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+relatedConcepts: ["Ballup", "Clarity Culture", "Clarity Laws", "Continuity-Disruption Balance", "Cross-Boundary Triangulation", "Cultural Resistance as Ballup", "Friction Ontology", "Metastable Intelligence", "Modal Layer Architecture", "Operator's Oath", "Structural Debt", "Structure–Memory–Interaction (SMI) Triad", "System Autopsy", "The Friction Ontology"]
+---
+
+<!-- Migration Status: Complete -->
+
 # Structural Debt
 
 ---

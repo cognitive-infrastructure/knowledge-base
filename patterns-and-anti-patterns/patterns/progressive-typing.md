@@ -4,7 +4,10 @@ category: pattern
 version: 1.0
 author: Rashid Azarang
 canonicalDate: 2024-04-16
+relatedConcepts: ["Ballup", "Continuity-Disruption Balance", "Universal Evolutionary Stages"]
 ---
+
+<!-- Migration Status: Complete -->
 
 # Progressive Typing
 

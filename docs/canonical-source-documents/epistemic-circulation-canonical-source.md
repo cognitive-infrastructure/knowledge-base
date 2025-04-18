@@ -1,5 +1,6 @@
 ---
 id: ci:canonical-source.epistemic-circulation
+author: "Rashid Azarang"
 status: canonical
 version: 1.0
 title: Epistemic Circulation: The Architecture of Intelligence Flow

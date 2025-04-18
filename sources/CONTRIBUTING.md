@@ -1,3 +1,12 @@
+---
+title: "Contributing to the Source Library"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
+<!-- Migration Status: Complete -->
+
 # Contributing to the Source Library
 
 This guide explains how to add and reference source materials in the Cognitive Infrastructure repository.

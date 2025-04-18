@@ -4,7 +4,10 @@ title: "Semantic Friction"
 category: "concept"
 author: "Rashid Azarang"
 canonicalDate: "2024-04-16"
+relatedConcepts: ["Canonical IDs", "Cognitive Amnesia", "Coherence Debt", "Friction Ontology", "Semantic Foundation"]
 ---
+
+<!-- Migration Status: Complete -->
 
 # Semantic Friction
 

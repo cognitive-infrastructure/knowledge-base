@@ -1,3 +1,13 @@
+---
+title: "Structure-Memory-Interaction Triad"
+author: "Rashid Azarang"
+summary: "Fundamental triad enabling persistent, evolvable intelligence through clear organization, reliable recall, and meaningful engagement"
+status: "canonical"
+relatedConcepts: ["Modal Layer Architecture", "Return-as-Intelligence", "Semantic Drift", "Structural Debt", "Epistemic Circulation"]
+---
+
+<!-- Migration Status: Complete -->
+
 # Structure–Memory–Interaction (SMI) Triad
 
 ---
@@ -33,15 +43,10 @@ Implementing the SMI Triad requires attention to all three components:
 
 The triad must be balanced—over-investing in one area while neglecting others creates brittle systems that cannot adapt.
 
-
-
-
-
-
-
 ## Related
 
 - [Modal Layer Architecture](modal-layer-architecture.md) (Core Concept)
 - [Return-as-Intelligence](return-as-intelligence.md) (Core Concept)
 - [Structural Debt](structural-debt.md) (Core Concept)
 - [Semantic Drift](../patterns-and-anti-patterns/anti-patterns/semantic-drift.md) (Anti-Pattern)
+- [Epistemic Circulation](epistemic-circulation.md) (Core Concept)

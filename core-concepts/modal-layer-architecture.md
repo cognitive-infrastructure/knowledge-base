@@ -1,3 +1,13 @@
+---
+title: "Modal Layer Architecture"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+relatedConcepts: ["Clarity Laws", "Clarity Mapping Worksheet", "Closed-Loop Feedback", "Continuity-Disruption Balance", "Cross-Boundary Triangulation", "Dashboard Theater", "Layer-Maturity Grid", "Layered Modularity", "Maturity vs. Balance 2×2", "Modal Layer Architecture", "Multi-Axis Integration", "Multi-Axis Integration Framework", "Return-as-Intelligence", "Structural Debt", "Structure–Memory–Interaction (SMI) Triad", "The Friction Ontology", "Trigger Chaos", "Epistemic Circulation"]
+---
+
+<!-- Migration Status: Complete -->
+
 # Modal Layer Architecture
 
 ---

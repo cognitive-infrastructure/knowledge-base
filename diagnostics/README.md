@@ -1,9 +1,18 @@
 ---
+title: "Diagnostics"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
+---
 id: ci:meta.library-diagnostics
 status: canonical
 version: 1.0
 summary: Systematic tools and methodologies for assessing, troubleshooting, and improving knowledge systems
----
+---<!-- migrated from knowledge-base repo on 2025-04 -->
+
+
 
 # Diagnostics
 

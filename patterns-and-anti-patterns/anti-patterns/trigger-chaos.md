@@ -4,7 +4,10 @@ category: antipattern
 version: 1.0
 author: Rashid Azarang
 canonicalDate: 2024-04-16
+relatedConcepts: ["Ballup", "Layer-Maturity Grid", "Layered Modularity", "Modal Layer Architecture", "The Friction Ontology"]
 ---
+
+<!-- Migration Status: Complete -->
 
 # Trigger Chaos
 

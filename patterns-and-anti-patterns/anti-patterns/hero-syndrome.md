@@ -4,7 +4,10 @@ category: antipattern
 version: 1.0
 author: Rashid Azarang
 canonicalDate: 2024-04-16
+relatedConcepts: ["Ballup", "Clarity Culture", "Cognitive Amnesia", "Cultural Resistance as Ballup", "Friction Ontology", "Maturity vs. Balance 2×2", "Role-Structure Coherence", "Structural Debt", "System Autopsy", "The Friction Ontology"]
 ---
+
+<!-- Migration Status: Complete -->
 
 # Hero Syndrome
 

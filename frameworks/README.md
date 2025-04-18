@@ -1,9 +1,18 @@
 ---
+title: "Frameworks"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
+---
 id: ci:meta.library-frameworks
 status: canonical
 version: 1.0
 summary: Structured approaches for organizing, evaluating, and implementing knowledge systems within cognitive infrastructure
----
+---<!-- migrated from knowledge-base repo on 2025-04 -->
+
+
 
 # Frameworks
 

@@ -1,3 +1,11 @@
+---
+id: ci:knowledge-base.readme
+author: "Rashid Azarang"
+status: canonical
+version: 1.0
+summary: README documentation for source-documents directory
+---
+
 # Source Documents
 
 <!-- migrated from knowledge-base repo on 2025-04 -->

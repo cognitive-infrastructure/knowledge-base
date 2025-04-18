@@ -1,3 +1,13 @@
+---
+title: "Return-as-Intelligence"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+relatedConcepts: ["Cultural Resistance as Ballup", "Return Path Engineering", "Return-as-Intelligence", "Structure–Memory–Interaction (SMI) Triad", "Epistemic Circulation"]
+---
+
+<!-- Migration Status: Complete -->
+
 # Return-as-Intelligence
 
 ---
@@ -21,12 +31,9 @@ Most systems optimize for initial capture and creation without deliberate pathwa
 4. **Layered Interaction** - Design for multiple return depths: quick reference (minimal context), deeper review (moderate restoration), and fundamental reengagement (complete reimmersion).
 5. **Return Path Engineering** - Explicitly design the routes, triggers, and interfaces that enable return, treating them as core infrastructure rather than incidental features.
 
-
-
-
-
-
-
 ## Related
 
+- [Structure-Memory-Interaction](structure-memory-interaction.md) (Core Concept)
 - [Return Path Engineering](../patterns-and-anti-patterns/patterns/return-path-engineering.md) (Pattern)
+- [Cultural Resistance as Ballup](../patterns-and-anti-patterns/anti-patterns/cultural-resistance-as-ballup.md) (Anti-Pattern)
+- [Epistemic Circulation](epistemic-circulation.md) (Core Concept)

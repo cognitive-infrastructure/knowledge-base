@@ -1,3 +1,10 @@
+---
+title: "Source Excerpts"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
 # Source Excerpts
 
 <!-- migrated from knowledge-base repo on 2025-04 -->

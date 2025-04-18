@@ -1,3 +1,13 @@
+---
+title: "Coherence Debt"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+relatedConcepts: ["Semantic Friction"]
+---
+
+<!-- Migration Status: Complete -->
+
 # Coherence Debt
 
 ---

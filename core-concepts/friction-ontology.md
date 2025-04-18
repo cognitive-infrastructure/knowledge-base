@@ -1,3 +1,13 @@
+---
+title: "Friction Ontology"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+relatedConcepts: ["Clarity Laws", "Clarity Mapping Worksheet", "Closed-Loop Feedback", "Cultural Resistance as Ballup", "Dashboard Theater", "Hero Syndrome", "Semantic Friction", "Structural Debt", "System Autopsy", "The Friction Ontology"]
+---
+
+<!-- Migration Status: Complete -->
+
 # Friction Ontology
 
 ---

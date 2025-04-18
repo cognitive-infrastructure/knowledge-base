@@ -1,3 +1,13 @@
+---
+title: "Universal Evolutionary Stages"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+relatedConcepts: ["Clarity Mapping Worksheet", "Continuity-Disruption Balance", "Layer-Maturity Grid", "Maturity vs. Balance 2×2", "Progressive Typing", "Return-as-Intelligence", "The Friction Ontology", "Universal Patterns of Intelligence Evolution"]
+---
+
+<!-- Migration Status: Complete -->
+
 # Universal Evolutionary Stages
 
 ---

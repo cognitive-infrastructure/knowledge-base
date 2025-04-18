@@ -6,7 +6,10 @@ summary: Chronic recurring issues that repeatedly resurface despite attempted fi
 category: antipattern
 author: Rashid Azarang
 canonicalDate: 2024-04-16
+relatedConcepts: ["Cognitive Amnesia", "Cultural Resistance as Ballup", "Hero Syndrome", "Layered Modularity", "Progressive Typing", "Semantic Foundation", "Structural Debt", "The Friction Ontology", "Trigger Chaos"]
 ---
+
+<!-- Migration Status: Complete -->
 
 # Ballup
 

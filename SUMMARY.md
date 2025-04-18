@@ -1,5 +1,6 @@
 ---
 id: ci:meta.summary
+author: "Rashid Azarang"
 status: canonical
 version: 1.0
 summary: Complete index of the Cognitive Infrastructure knowledge base content

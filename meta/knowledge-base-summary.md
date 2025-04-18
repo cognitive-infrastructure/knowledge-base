@@ -1,9 +1,12 @@
 ---
 id: ci:meta.knowledge-base-summary
+author: "Rashid Azarang"
 status: canonical
 version: 1.3
 summary: Comprehensive overview of the Cognitive Infrastructure knowledge base structure, content, and evolution
 ---
+
+<!-- Migration Status: Complete -->
 
 # Cognitive Infrastructure: Condensed Knowledge-Base Summary
 
@@ -26,6 +29,8 @@ The repository creates a common language and framework for identifying, discussi
 - The `core-concepts/` folder contains the foundational ideas upon which Cognitive Infrastructure is built, each following a consistent format with canonical definitions, explanations of importance, and key principles. These files represent the "source-of-truth" for these concepts.
 
 - The `patterns-and-anti-patterns/` directory houses implementation patterns that preserve clarity (e.g., "Semantic Foundation") and anti-patterns that erode it (e.g., "Dashboard Theater"). Each follows a consistent structure that includes symptoms, causes, and remedies.
+
+- The `diagnostics/` directory contains methodologies and tools for assessing system health, identifying architectural issues, and triangulating across multiple perspectives to create accurate understanding.
 
 - The `docs/canonical-source-documents/` provides comprehensive, in-depth treatments of key concepts following a six-layer structure, while `docs/source-documents/` contains epistemological sources with research and external references.
 
@@ -52,6 +57,7 @@ Key core concepts include:
 - **Structural Receptivity**: A system's capacity to incorporate new knowledge without fragmentation
 - **Epistemophany**: The moment when a system perceives the architecture shaping its understanding
 - **Semantic Friction**: The resistance encountered when translating meaning across boundaries
+- **Cognitive Infrastructure Retrieval (CIR)**: A recursive, epistemically structured retrieval system enabling intelligence reuse across agents and time
 
 Each core concept file follows a consistent structure, making them easily navigable and comparable. They serve as entry points for deeper exploration through the canonical source documents.
 
@@ -77,6 +83,7 @@ Key implementation patterns include:
 - **Single Source of Truth**: Creating authoritative records from which others derive
 - **Closed-Loop Feedback**: Building measurement systems that inform adjustments
 - **Hero-Structure Inverse Correlation Law**: Balancing individual heroism with structural maturity
+- **Clarity Culture**: Create cultural practices that value and maintain structural clarity over time
 
 #### 3.2.2 Anti-Patterns (`/patterns-and-anti-patterns/anti-patterns/`)
 
@@ -99,7 +106,25 @@ Key anti-patterns include:
 - **Cognitive Amnesia**: Organizations solve problems, forget solutions, then repeat
 - **Trigger Chaos**: Automations behave unpredictably under change
 
-### 3.3 Canonical Source Documents (`/docs/canonical-source-documents/`)
+### 3.3 Diagnostics (`/diagnostics/`)
+
+The diagnostics directory contains methodologies and frameworks for assessing system health, identifying architectural issues, and creating accurate understanding through structured investigation. Each diagnostic tool includes:
+
+- **Description**: What the diagnostic is and how it works
+- **When to Use**: Situations where the diagnostic is most valuable
+- **Inputs and Outputs**: What information is required and what insights are produced
+- **Procedure**: Step-by-step process for applying the diagnostic
+- **Cross-links**: Connections to related concepts, patterns, and anti-patterns
+
+Key diagnostics include:
+
+- **Cross-Boundary Triangulation**: Gathering perspectives from different roles, levels, and functions to create composite understanding of architectural patterns
+- **Collaborative System Integrity Diagnosis**: Examining how intelligence emerges across boundaries between different entities (human-human, human-tool, human-AI, AI-AI)
+- **System Autopsy**: Structured post-incident analysis that identifies underlying architectural issues
+
+These diagnostics provide practical tools for identifying and addressing architectural issues in real-world systems. They serve as bridges between theoretical understanding and practical application.
+
+### 3.4 Canonical Source Documents (`/docs/canonical-source-documents/`)
 
 The canonical source documents provide comprehensive, authoritative treatments of key concepts and patterns. Each document follows a six-layer structure that explores the concept from multiple perspectives:
 
@@ -120,8 +145,9 @@ These documents serve as the definitive references for the concepts, providing b
 - **Metastable Intelligence Canonical Source**: Systems vulnerable to complexity collapse
 - **Toolification Canonical Source**: Tool acquisition as distraction from structural issues
 - **Universal Evolutionary Stages Canonical Source**: Maturity progression of intelligence systems
+- **CIR Canonical Source**: Structured, recursive, and epistemically-aware retrieval model for knowledge reuse
 
-### 3.4 Source Documents (`/docs/source-documents/`)
+### 3.5 Source Documents (`/docs/source-documents/`)
 
 Source documents contain epistemological foundations, research materials, and external references that inform the canonical definitions. Unlike canonical documents, these focus on the intellectual lineage and research basis rather than providing definitive concept descriptions.
 
@@ -172,6 +198,7 @@ Examples include:
 | Role-Structure Coherence | Responsibility must match the scaffold that supports it. |
 | Epistemic Substrate Theory | Foundational architecture determining possible forms of knowledge. |
 | Semantic Friction | Resistance encountered when translating meaning across boundaries. |
+| Cognitive Infrastructure Retrieval (CIR) | A recursive, epistemically structured retrieval system enabling intelligence reuse across agents and time. |
 
 Each core concept represents a foundational principle of Cognitive Infrastructure that can be applied across different domains, from individual cognition to organizational knowledge management to AI systems design. These concepts are interconnected, forming a coherent framework for understanding and addressing structural intelligence issues.
 
@@ -187,6 +214,7 @@ Each core concept represents a foundational principle of Cognitive Infrastructur
 | Canonical IDs | Create stable, globally unique identifiers that transcend specific systems. |
 | Progressive Typing | Begin with flexible data structures that tighten as understanding grows. |
 | Hero-Structure Inverse Correlation Law | Balance between individual heroism and structural maturity. |
+| Clarity Culture | Create cultural practices that value and maintain structural clarity over time. |
 
 Implementation patterns provide practical approaches to applying core concepts. They represent repeatable solutions to common challenges in maintaining clarity and coherence. Each pattern addresses a specific aspect of system design or organizational structure, with guidance on when and how to apply it.
 
@@ -337,9 +365,16 @@ This workflow creates a self-reinforcing system where knowledge becomes more str
 3. You can train downstream LLMs or agents to start with this file first when working with your system.
 4. You can build a changelog like:
 
+## 📎 Related Documents
+* [Knowledge Base PRD](../../meta-stack/meta/cognitive-infrastructure-knowledge-base.md)
+
 ## Revision Log
 - v1.0 (Apr 2025): Initial condensation from full source PDFs and `.md` files
 - v1.1 (Future): Added patterns registry and updated filemap
 - v1.2 (Current): Expanded documentation of canonical source documents, source documents, core concepts, and patterns-and-anti-patterns; detailed filemap with annotations
 - v1.3 (Apr 2025): Canonicalization pass to standardize frontmatter and formatting across all files 
 - v1.4 (Apr 2025): Migrated repository structure from monorepo to multi-repo and recovered missing directories 
+- v1.5 (Apr 2025): Added Clarity Culture pattern to the patterns registry
+- v1.6 (Apr 2025): Added Operator's Oath as a meta document
+- v1.7 (Apr 2025): Added Cross-Boundary Triangulation and created Diagnostics section 
+- v1.8 (Apr 2025): Processed pending documents, including new patterns (Clarity Mapping Worksheet, Continuity-Disruption Balance, Maturity vs. Balance 2x2, Multi-Axis Integration Framework, Structure-Memory-Interaction Triad, Universal Patterns of Intelligence Evolution) and anti-patterns (Clarity Laws, Cultural Resistance as Ballup, Friction Ontology, Layer Maturity Grid, Modal Layer Architecture, Return as Intelligence, Structural Debt) 

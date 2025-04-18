@@ -1,3 +1,12 @@
+---
+title: "Source Library"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
+<!-- Migration Status: Complete -->
+
 # Source Library
 
 This directory contains immutable source materials that form the foundation of the Cognitive Infrastructure knowledge base.

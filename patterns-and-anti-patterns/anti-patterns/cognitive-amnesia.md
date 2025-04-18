@@ -4,7 +4,10 @@ category: antipattern
 version: 1.0
 author: Rashid Azarang
 canonicalDate: 2024-04-16
+relatedConcepts: ["Ballup", "Clarity Culture", "Closed-Loop Feedback", "Hero Syndrome", "Return Path Engineering", "Return-as-Intelligence", "Semantic Drift", "Semantic Friction", "Single Source of Truth", "System Autopsy", "The Friction Ontology"]
 ---
+
+<!-- Migration Status: Complete -->
 
 # Cognitive Amnesia
 

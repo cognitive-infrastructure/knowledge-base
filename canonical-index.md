@@ -1,3 +1,12 @@
+---
+title: "Canonical Concepts in Cognitive Infrastructure"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
+<!-- Migration Status: Complete -->
+
 # Canonical Concepts in Cognitive Infrastructure
 
 ## Architectural Patterns
@@ -10,7 +19,7 @@
 
 4. **Multi-Axis Integration** — Framework for achieving coherence across vertical (hierarchical), horizontal (functional), and end-to-end (sequential) dimensions.
 
-5. **[Hero-Structure Inverse Correlation Law](library/core-concepts/hero-structure-inverse-correlation-law-canonical-source.md)** — Fundamental relationship where the operational dependence on individual heroism within a system is inversely proportional to the structural maturity of that system (H = k/S).
+5. **[Hero-Structure Inverse Correlation Law](knowledge-base/core-concepts/hero-structure-inverse-correlation-law-canonical-source.md)** — Fundamental relationship where the operational dependence on individual heroism within a system is inversely proportional to the structural maturity of that system (H = k/S).
 
 ## Implementation Patterns
 
@@ -22,53 +31,77 @@
 
 4. **Progressive Typing** — Begin with flexible data structures that tighten as understanding grows, balancing exploration with eventual consistency.
 
-5. **Return Path Engineering** — Design explicit routes back to previous knowledge and contexts, enabling compound intelligence through revisitation.
+5. **Recursive Ingestion Pattern** — Systematically process new content through a standardized pipeline that classifies, structures, and integrates it into a knowledge base while maintaining consistency and relationships.
 
-6. **Semantic Foundation** — Establish unified definitions, relationships, and business rules that create consistent meaning across systems and teams.
+6. **Return Path Engineering** — Design explicit routes back to previous knowledge and contexts, enabling compound intelligence through revisitation.
 
-7. **Single Source of Truth** — Establish authoritative entity records from which all other representations derive.
+7. **Semantic Foundation** — Establish unified definitions, relationships, and business rules that create consistent meaning across systems and teams.
+
+8. **Single Source of Truth** — Establish authoritative entity records from which all other representations derive.
+
+9. **Hero-Structure Inverse Correlation Law** — Balance between individual heroism and structural maturity.
+
+10. **Clarity Mapping Worksheet** — Structured approach to identify and align clarity gaps across system layers and stakeholders.
+
+11. **Continuity-Disruption Balance** — Framework for safely evolving systems without breaking trust and maintaining operational stability.
+
+12. **Maturity vs. Balance 2x2** — Assessment framework contrasting system maturity against architectural balance.
+
+13. **Universal Patterns of Intelligence Evolution** — Common developmental pathways that intelligence systems follow as they mature.
 
 ## Diagnostic Concepts
 
-1. **[Structural Debt](library/core-concepts/structure-debt-canonical-source.md)** — Accumulated cost of misaligned operational architecture, manifesting as fractured data models, inconsistent business rules, and disconnected workflows.
+1. **[Structural Debt](knowledge-base/core-concepts/structure-debt-canonical-source.md)** — Accumulated cost of misaligned operational architecture, manifesting as fractured data models, inconsistent business rules, and disconnected workflows.
 
-2. **[Coherence Debt](library/core-concepts/coherence-debt-canonical-source.md)** — Cumulative deficit in shared meaning, narrative alignment, and interpretive trust that arises when a system's data, language, or purpose diverges across its actors.
+2. **[Coherence Debt](knowledge-base/core-concepts/coherence-debt-canonical-source.md)** — Cumulative deficit in shared meaning, narrative alignment, and interpretive trust that arises when a system's data, language, or purpose diverges across its actors.
 
-3. **[Epistemophany](library/core-concepts/epistemophany-canonical-source.md)** — The moment when a person or system perceives the structural architecture that has been shaping their understanding.
+3. **[Epistemophany](knowledge-base/core-concepts/epistemophany-canonical-source.md)** — The moment when a person or system perceives the structural architecture that has been shaping their understanding.
 
-4. **[Structural Receptivity](library/core-concepts/structural-receptivity-canonical-source.md)** — A system's capacity to incorporate new knowledge into its architecture without fragmentation.
+4. **[Structural Receptivity](knowledge-base/core-concepts/structural-receptivity-canonical-source.md)** — A system's capacity to incorporate new knowledge into its architecture without fragmentation.
 
-5. **[Semantic Friction](library/core-concepts/semantic-friction-canonical-source.md)** — The resistance encountered when attempting to translate meaning across boundaries in knowledge systems.
+5. **[Semantic Friction](knowledge-base/core-concepts/semantic-friction-canonical-source.md)** — The resistance encountered when attempting to translate meaning across boundaries in knowledge systems.
+
+6. **Layer Maturity Grid** — Diagnostic tool mapping the maturity of each modal layer against an evolutionary scale to reveal architectural imbalances.
 
 ## Anti-Patterns
 
-1. **[Ballup](library/patterns-and-anti-patterns/anti-patterns/ballup-canonical-source.md)** — Chronic recurring issues despite repeated attempts to fix them.
+1. **[Ballup](knowledge-base/patterns-and-anti-patterns/anti-patterns/ballup-canonical-source.md)** — Chronic recurring issues despite repeated attempts to fix them.
 
-2. **[Cognitive Amnesia](library/patterns-and-anti-patterns/anti-patterns/cognitive-amnesia-canonical-source.md)** — Organizations repeatedly solving the same problems without building on past solutions.
+2. **[Cognitive Amnesia](knowledge-base/patterns-and-anti-patterns/anti-patterns/cognitive-amnesia-canonical-source.md)** — Organizations repeatedly solving the same problems without building on past solutions.
 
 3. **Dashboard Theater** — Impressive-looking visualizations that mask underlying data and logic weaknesses.
 
-4. **[Hero Syndrome](library/patterns-and-anti-patterns/anti-patterns/hero-syndrome-canonical-source.md)** — Critical operations dependent on specific individuals rather than system structure.
+4. **[Hero Syndrome](knowledge-base/patterns-and-anti-patterns/anti-patterns/hero-syndrome-canonical-source.md)** — Critical operations dependent on specific individuals rather than system structure.
 
-5. **[Metastable Intelligence](library/patterns-and-anti-patterns/anti-patterns/metastable-intelligence-canonical-source.md)** — Systems that appear intelligent and functional until stress reveals their hidden structural fragilities.
+5. **[Metastable Intelligence](knowledge-base/patterns-and-anti-patterns/anti-patterns/metastable-intelligence-canonical-source.md)** — Systems that appear intelligent and functional until stress reveals their hidden structural fragilities.
 
 6. **Semantic Drift** — Gradual divergence of terminology meaning across teams and systems.
 
-7. **[Toolification](library/patterns-and-anti-patterns/anti-patterns/toolification-canonical-source.md)** — Pattern in which structural friction is met with the rapid adoption of additional tools instead of architectural redesign.
+7. **[Toolification](knowledge-base/patterns-and-anti-patterns/anti-patterns/toolification-canonical-source.md)** — Pattern in which structural friction is met with the rapid adoption of additional tools instead of architectural redesign.
 
-8. **[Trigger Chaos](library/patterns-and-anti-patterns/anti-patterns/trigger-chaos-canonical-source.md)** — Complex automations operating through invisible logic creating unpredictable outcomes.
+8. **[Trigger Chaos](knowledge-base/patterns-and-anti-patterns/anti-patterns/trigger-chaos-canonical-source.md)** — Complex automations operating through invisible logic creating unpredictable outcomes.
 
-9. **[Metric Mirage](library/patterns-and-anti-patterns/anti-patterns/metric-mirage-canonical-source.md)** — Systemic anti-pattern in which measurements proliferate without influencing behavior or driving adaptation.
+9. **[Metric Mirage](knowledge-base/patterns-and-anti-patterns/anti-patterns/metric-mirage-canonical-source.md)** — Systemic anti-pattern in which measurements proliferate without influencing behavior or driving adaptation.
+
+10. **Clarity Laws** — Empirical principles governing how structural choices constrain or enhance clarity.
+
+11. **Cultural Resistance as Ballup** — Pattern where cultural forces manifest as recurring friction points despite apparent resolution.
+
+12. **Friction Ontology** — Taxonomy of recurring clarity frictions in intelligent systems.
+
+13. **Return as Intelligence** — Phenomenon where revisiting understanding is treated as maintenance rather than generative intelligence.
 
 ## Diagnostic Frameworks
 
 1. **Friction Ontology** — Taxonomy of recurring patterns where intelligence systems resist clarity, providing diagnostic tools for identifying and addressing structural issues.
 
-2. **[Epistemic Substrate Theory](library/core-concepts/epistemic-substrate-theory-canonical-source.md)** — The foundational architecture that determines the possible forms, connections, persistence, and evolution of knowledge within any system of intelligence.
+2. **[Epistemic Substrate Theory](knowledge-base/core-concepts/epistemic-substrate-theory-canonical-source.md)** — The foundational architecture that determines the possible forms, connections, persistence, and evolution of knowledge within any system of intelligence.
+
+3. **Cross-Boundary Triangulation** — Method for gathering perspectives from different roles, levels, and functions to create composite understanding.
 
 ## Developmental Frameworks
 
-1. **[Universal Evolutionary Stages](library/core-concepts/universal-evolutionary-stages-canonical-source.md)** — Eight-stage progression from fragmentation to integrated intelligence, mapping the common developmental sequence across domains.
+1. **[Universal Evolutionary Stages](knowledge-base/core-concepts/universal-evolutionary-stages-canonical-source.md)** — Eight-stage progression from fragmentation to integrated intelligence, mapping the common developmental sequence across domains.
 
 2. **Continuity-Disruption Balance** — Framework for managing the tension between stability and evolution, enabling safe transformation without system collapse.
 
@@ -78,18 +111,20 @@
 
 2. **Clarity Laws** — Empirical rules governing operational system behavior, revealing how structural constraints determine capability limits and evolution potential.
 
+3. **[Epistemic Circulation](knowledge-base/core-concepts/epistemic-circulation.md)** — The architecture of intelligence flow that enables structured knowledge to remain coherent as it moves across agents, contexts, and time.
+
 ## Document Types
 
 ### Canonical Library
 
-The `/library/` folder contains the structured canon of the Cognitive Infrastructure knowledge base, including:
+The `/knowledge-base/` folder contains the structured canon of the Cognitive Infrastructure knowledge base, including:
 
-- `/library/core-concepts/`: foundational ideas and principles
-- `/library/frameworks/`: structured models and systems
-- `/library/patterns-and-anti-patterns/`: recurring structures of success or failure
-- `/library/diagnostics/`: tools for system assessment and friction tracing
-- `/library/essays/`: narrative and philosophical reflections on intelligence architecture
-- `/library/lexicon/`: original terms and metaphors with epistemic significance
+- `/knowledge-base/core-concepts/`: foundational ideas and principles
+- `/knowledge-base/frameworks/`: structured models and systems
+- `/knowledge-base/patterns-and-anti-patterns/`: recurring structures of success or failure
+- `/knowledge-base/diagnostics/`: tools for system assessment and friction tracing
+- `/knowledge-base/essays/`: narrative and philosophical reflections on intelligence architecture
+- `/knowledge-base/lexicon/`: original terms and metaphors with epistemic significance
 
 All contents in this folder follow canonical formatting, versioning, and bidirectional referencing standards.
 
@@ -98,7 +133,7 @@ All contents in this folder follow canonical formatting, versioning, and bidirec
 Epistemological source documents, located in `sources/`, provide research and external references rather than definitive concept descriptions. They explore the broader implications and connections of concepts within the field.
 
 Currently available:
-- [Toolification: An Emerging Epistemological Concept](sources/toolification-epistemological-source.md)
+- [Toolification: An Emerging Epistemological Concept](knowledge-base/sources/toolification-epistemological-source.md)
 
 ## Categories Overview
 

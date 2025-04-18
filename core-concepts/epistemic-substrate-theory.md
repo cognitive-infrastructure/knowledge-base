@@ -1,3 +1,12 @@
+---
+title: "Epistemic Substrate Theory"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
+<!-- Migration Status: Complete -->
+
 # Epistemic Substrate Theory
 
 ---

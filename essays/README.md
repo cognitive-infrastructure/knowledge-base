@@ -1,9 +1,18 @@
 ---
+title: "Essays"
+author: "Rashid Azarang"
+date: 2025-04-18
+draft: false
+---
+
+---
 id: ci:meta.library-essays
 status: canonical
 version: 1.0
 summary: In-depth explorations of ideas, concepts, and theories related to cognitive infrastructure and knowledge management
----
+---<!-- migrated from knowledge-base repo on 2025-04 -->
+
+
 
 # Essays
 
