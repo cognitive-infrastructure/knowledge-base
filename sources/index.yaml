@@ -1,0 +1,18 @@
+# Cognitive Infrastructure Source Index
+# Format: LOGICAL_ID: relative/path/to/file.md
+# 
+# Guidelines:
+# - IDs should be ALL_CAPS with underscores
+# - Include publication year
+# - Once published, never change an ID
+# - Paths are relative to the sources directory
+
+# Books and Whitepapers
+INT_STACK_2024: manuscripts/2024-intelligence-stack.md
+FIELD_GUIDE_2024: manuscripts/cognitive-infrastructure-field-guide.md
+STRUCT_DIAG_2025: manuscripts/structural-diagnostics-fieldbook.md
+RETHINKING_AI_2023: manuscripts/rethinking-age-of-ai.md
+FIELD_DEF_CI_2025: manuscripts/field-definition-paper-ci.md
+
+# Version History
+# v1.0 - 2024-04-17 - Initial index with 5 core documents 

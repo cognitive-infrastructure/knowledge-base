@@ -1,7 +1,7 @@
 ---
 id: ci:meta.knowledge-base-summary
 status: canonical
-version: 1.2
+version: 1.3
 summary: Comprehensive overview of the Cognitive Infrastructure knowledge base structure, content, and evolution
 ---
 
@@ -342,3 +342,4 @@ This workflow creates a self-reinforcing system where knowledge becomes more str
 - v1.1 (Future): Added patterns registry and updated filemap
 - v1.2 (Current): Expanded documentation of canonical source documents, source documents, core concepts, and patterns-and-anti-patterns; detailed filemap with annotations
 - v1.3 (Apr 2025): Canonicalization pass to standardize frontmatter and formatting across all files 
+- v1.4 (Apr 2025): Migrated repository structure from monorepo to multi-repo and recovered missing directories 

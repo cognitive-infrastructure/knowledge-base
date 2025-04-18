@@ -13,6 +13,12 @@ This repository contains the core concepts, patterns, anti-patterns, essays, fra
 - `/diagnostics/` - Tools for diagnosing cognitive issues
 - `/lexicon/` - Terminology and definitions
 - `/meta/` - Meta-information about the knowledge base
+- `/docs/` - Documentation, canonical sources, and source documents
+  - `/docs/canonical-source-documents/` - Structured canonical source documents
+  - `/docs/source-documents/` - Original source documents before canonicalization
+- `/sources/` - Original source materials and contribution guidelines
+  - `/sources/excerpts/` - Excerpts from source materials
+  - `/sources/manuscripts/` - Original manuscripts
 
 ## Related Repositories
 

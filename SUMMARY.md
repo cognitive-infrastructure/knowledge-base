@@ -51,7 +51,22 @@ summary: Complete index of the Cognitive Infrastructure knowledge base content
 * [Ballup](patterns-and-anti-patterns/anti-patterns/ballup.md)
 * [Cognitive Amnesia](patterns-and-anti-patterns/anti-patterns/cognitive-amnesia.md)
 
+## Source Documents
+* [Source Documents](docs/source-documents/README.md)
+* [Canonical Source Documents](docs/canonical-source-documents/README.md)
+
+## Sources
+* [Source Excerpts](sources/excerpts/README.md)
+* [Manuscripts](sources/manuscripts/README.md)
+* [Citation Examples](sources/CITATION_EXAMPLES.md)
+* [Contributing Guide](sources/CONTRIBUTING.md)
+
+## Development
+* [Scripts Guide](docs/scripts-guide.md)
+* [JSON Guide](docs/json-guide.md)
+
 ## Revision Log
 
+- v1.2 (Apr 2025): Added missing docs/ and sources/ directories from knowledge-base monorepo
 - v1.1 (Apr 2025): Migrated repository structure from monorepo to multi-repo
 - v1.0 (Apr 2025): Canonicalization pass to standardize frontmatter and formatting 
